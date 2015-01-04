@@ -1,4 +1,4 @@
-.masthead{
+.masthead {
   background-image: url('https://unsplash.imgix.net/reserve/rVvIisyfQwOhZv35PPhh_unsplash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -37,6 +37,7 @@ section h1 {
 body {
     color: #222222;
     font-size: 1em;
+    margin: 0;
 }
 section {
   max-width: 38em;
@@ -78,4 +79,16 @@ footer p {
     /* Typography Declarations */
     font-weight: 300;
     letter-spacing: 0.05em;
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+    .content-footer {
+      padding: 2em 0;
+    }
 }
